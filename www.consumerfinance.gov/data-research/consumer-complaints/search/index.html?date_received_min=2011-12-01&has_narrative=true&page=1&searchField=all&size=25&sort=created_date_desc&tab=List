@@ -4,22 +4,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <title>Learn how the complaint process works | Consumer Financial Protection Bureau</title>
-    <meta name="template" content="v1/learn-page/index.html">
+    <title>
+  Search the Consumer Complaint Database | Consumer Financial Protection Bureau
+</title>
+    <meta name="template" content="ccdb-complaint/ccdb-search.html">
     <meta name="description"
-          content="Your complaint goes through several steps that help you get a response and help us identify problems in the marketplace.">
+          content="
+    The Consumer Complaint Database is a collection of complaints about consumer financial products and services that we sent to companies for response.
+">
     <meta name="searchgov_custom1" content="en">
-    <meta name="searchgov_custom2" content="LFXXK4RAMNXW24DMMFUW45BAM5XWK4ZAORUHE33VM5UCA43FOZSXEYLMEBZXIZLQOMQHI2DBOQQGQZLMOAQHS33VEBTWK5BAMEQHEZLTOBXW443FEBQW4ZBANBSWY4BAOVZSA2LEMVXHI2LGPEQHA4TPMJWGK3LTEBUW4IDUNBSSA3LBOJVWK5DQNRQWGZJO">
-      <link rel="canonical" href="https://www.consumerfinance.gov/complaint/process/">
-      <meta property="og:url" content="https://www.consumerfinance.gov/complaint/process/">
-    <meta property="og:title" content="Learn how the complaint process works | Consumer Financial Protection Bureau">
+    <meta name="searchgov_custom2" content="BIQCAIBAKRUGKICDN5XHG5LNMVZCAQ3PNVYGYYLJNZ2CARDBORQWEYLTMUQGS4ZAMEQGG33MNRSWG5DJN5XCA33GEBRW63LQNRQWS3TUOMQGCYTPOV2CAY3PNZZXK3LFOIQGM2LOMFXGG2LBNQQHA4TPMR2WG5DTEBQW4ZBAONSXE5TJMNSXGIDUNBQXIIDXMUQHGZLOOQQHI3ZAMNXW24DBNZUWK4ZAMZXXEIDSMVZXA33OONSS4CQ=">
+      <link rel="canonical" href="https://www.consumerfinance.gov/data-research/consumer-complaints/search/">
+      <meta property="og:url" content="https://www.consumerfinance.gov/data-research/consumer-complaints/search/">
+    <meta property="og:title" content="
+  Search the Consumer Complaint Database | Consumer Financial Protection Bureau
+">
     <meta property="og:type" content="website">
         <meta property="og:image"
               content="https://www.consumerfinance.gov/static/img/logo_open-graph_facebook.d0dedfbe1787.png">
         <meta property="twitter:image"
               content="https://www.consumerfinance.gov/static/img/logo_open-graph_twitter.ebc43e92acd1.png">
     <meta property="og:description"
-          content="Your complaint goes through several steps that help you get a response and help us identify problems in the marketplace.">
+          content="">
     <meta property="og:site_name" content="Consumer Financial Protection Bureau">
     <meta property="fb:app_id" content="210516218981921">
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -228,7 +234,7 @@
 </li>
 <li class="o-mega-menu__content-item o-mega-menu__content-2-item"
     >
-    <a class="o-mega-menu__content-link o-mega-menu__content-2-link"
+    <a class="o-mega-menu__content-link o-mega-menu__content-2-link o-mega-menu__content-link--current o-mega-menu__content-2-link--current"
        href="/data-research/consumer-complaints/"
        >
         Consumer Complaint Database
@@ -388,7 +394,7 @@
                     </div>
                     <ul aria-label="Additional Resources">
                         <li class="o-mega-menu__content-item o-mega-menu__content-2-item o-mega-menu__content-item--has-icon o-mega-menu__content-2-item--has-icon">
-                            <a class="a-link o-mega-menu__content-link o-mega-menu__content-2-link o-mega-menu__content-link--current o-mega-menu__content-2-link--current"
+                            <a class="a-link o-mega-menu__content-link o-mega-menu__content-2-link"
                             href="/complaint/">
                                 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="cf-icon-svg cf-icon-svg--complaint" viewBox="0 0 15 19"><path d="M14.032 5.286v7.276a1.11 1.11 0 0 1-1.108 1.108H8.75l-1.02 1.635a.273.273 0 0 1-.503 0l-1.02-1.635h-4.13a1.11 1.11 0 0 1-1.109-1.108V5.286a1.11 1.11 0 0 1 1.108-1.108h10.848a1.11 1.11 0 0 1 1.108 1.108M8.206 11.34a.706.706 0 1 0-.706.705.706.706 0 0 0 .706-.705m-1.26-1.83a.554.554 0 1 0 1.108 0V6.275a.554.554 0 1 0-1.108 0z"/></svg>
                                 <span class="a-link__text">Submit a Complaint</span>
@@ -1059,144 +1065,34 @@
         </div>
     </div>
 </header>
-    <main class="u-layout-grid u-layout-grid--2-1
-                 "
+    <main class="u-layout-grid  u-layout-grid--full-width"
           id="main"
           >
         <div class="u-layout-grid__wrapper">
-    <div class="u-layout-grid__breadcrumbs">
-     <nav class="m-breadcrumbs" aria-label="Breadcrumbs">
-             / 
-                <a class="m-breadcrumbs__crumb"
-                   href="/complaint/">
-                    Submit a complaint
-                </a>
-     </nav>
+                <div class="u-layout-grid__main  ccdb-search">
+  <cfpb-ccdb-search
+    data-css-href="/static/apps/ccdb-search/css/main.bf610f22d00e.css"
+    data-mount-id="ccdb-ui-root"
+  >
+    <div class="u-hide-if-js wrapper u-mt60 u-mb60">
+  <div class="m-notification m-notification--error m-notification--visible">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="cf-icon-svg cf-icon-svg--error-round" viewBox="0 0 17 19"><path d="M16.417 9.583a7.916 7.916 0 1 1-15.833 0 7.916 7.916 0 0 1 15.833 0m-6.804.01 3.032-3.033a.792.792 0 1 0-1.12-1.12L8.494 8.473 5.46 5.44a.792.792 0 0 0-1.12 1.12l3.033 3.033-3.032 3.033a.791.791 0 1 0 1.12 1.119l3.032-3.033 3.033 3.033a.79.79 0 0 0 1.12 0 .79.79 0 0 0 0-1.12z"/></svg>
+      <div class="m-notification__content"
+          >
+          <div class="m-notification__message">This interactive tool is not supported in your web browser</div>
+              <div class="m-notification__explanation">Please use a newer browser or download the data.</div>
+                  <ul class="m-list m-list--links">
+                      <li class="m-list__item">
+                          <a class="a-link a-link--jump"
+                             href="/data-research/consumer-complaints/#download-the-data"
+                             ><span class="a-link__text">Download the data</span></a>
+                      </li>
+                  </ul>
+      </div>
+  </div>
     </div>
-                <div class="u-layout-grid__main">
-   <div class="block block--flush-top">
-<h1>Learn how the complaint process works</h1>
-    <div class="lead-paragraph">
-        <p data-block-key="b5rkp">Your complaint goes through several steps that help you get a response and help us identify problems in the marketplace.</p>
-    </div>
-   </div>
-   <div class="block block--flush-top">
-<div class="o-info-unit-group" >
-    <div class="content-l">
-        <div class="content-l__col content-l__col-1">
-<div class="m-info-unit m-info-unit--inline">
-        <img class="m-info-unit__image m-info-unit__image--square"
-            src="https://files.consumerfinance.gov/f/images/complaint-process-submitted-round-300x300.original.png"
-            alt="">
-        <div class="m-info-unit__heading-text">
-<h3 id="1-complaint-submitted">1. Complaint submitted</h3>
-        </div><div class="m-info-unit__content">
-        <p data-block-key="3la6b">You submit a complaint, or another government agency forwards your complaint to us. You will receive email updates and can <a href="https://portal.consumerfinance.gov/consumer/s/">check the status</a> of your complaint.</p>
-    </div>
-</div>
-        </div>
-        <div class="content-l__col content-l__col-1">
-<div class="m-info-unit m-info-unit--inline">
-        <img class="m-info-unit__image m-info-unit__image--square"
-            src="https://files.consumerfinance.gov/f/images/complaint-process-review-route-round-300x300.original.png"
-            alt="">
-        <div class="m-info-unit__heading-text">
-<h3 id="2-route">2. Route</h3>
-        </div><div class="m-info-unit__content">
-        <p data-block-key="jqhe7">We'll send your complaint directly to the company so it can review the issues in your complaint. If we find that another government agency would be better able to assist, we will send your complaint to them and let you know.</p>
-    </div>
-</div>
-        </div>
-        <div class="content-l__col content-l__col-1">
-<div class="m-info-unit m-info-unit--inline">
-        <img class="m-info-unit__image m-info-unit__image--square"
-            src="https://files.consumerfinance.gov/f/images/complaint-process-response-round-300x300.original.png"
-            alt="">
-        <div class="m-info-unit__heading-text">
-<h3 id="3-company-response">3. Company response</h3>
-        </div><div class="m-info-unit__content">
-        <p data-block-key="stao4">The company will communicate with you as needed and respond to the issues in your complaint. Companies generally respond in 15 days. In some cases, the company will let you know their response is in progress and provide a final response in 60 days.</p>
-    </div>
-</div>
-        </div>
-        <div class="content-l__col content-l__col-1">
-<div class="m-info-unit m-info-unit--inline">
-        <img class="m-info-unit__image m-info-unit__image--square"
-            src="https://files.consumerfinance.gov/f/images/complaint-process-published-round-300x300.original.png"
-            alt="">
-        <div class="m-info-unit__heading-text">
-<h3 id="4-complaint-published">4. Complaint published</h3>
-        </div><div class="m-info-unit__content">
-        <p data-block-key="h3kxl">We publish information about your complaint (without information that directly identifies you) in our public Consumer Complaint Database. With your consent we also publish your description of what happened, after taking steps to remove personal information. Learn more about <a href="/complaint/data-use/">how we share complaint data</a>.</p>
-    </div>
-</div>
-        </div>
-        <div class="content-l__col content-l__col-1">
-<div class="m-info-unit m-info-unit--inline">
-        <img class="m-info-unit__image m-info-unit__image--square"
-            src="https://files.consumerfinance.gov/f/images/complaint-process-review-round-300x300.original.png"
-            alt="">
-        <div class="m-info-unit__heading-text">
-<h3 id="5-consumer-review">5. Consumer review</h3>
-        </div><div class="m-info-unit__content">
-        <p data-block-key="c1bv7">We will let you know when the company responds. You’ll be able to review the company’s response and will have 60 days to provide feedback about the company's response.</p>
-    </div>
-</div>
-        </div>
-    </div>
-</div>
-   </div>
-   <div class="block">
-<div class="o-full-width-text-group">
-            <div class="m-full-width-text">
-                <h2 id="" data-block-key="316we">Ready to start your complaint?</h2><p data-block-key="7kosu">You can submit a complaint <a href="/complaint/">online now</a>. It usually takes less than 10 minutes.</p><p data-block-key="ednj5"><a href="https://portal.consumerfinance.gov/consumer/s/?_gl=1*1fjzu0k*_ga*MTMxMTY4MTQ4OC4xNjAyODYyMzgw*_ga_DBYJL30CHS*MTY0NzAzMTQ2MC41OS4xLjE2NDcwMzYzMTUuMA..">Check the status of a complaint you've already submitted.</a></p>
-            </div>
-</div>
-   </div>
-<div class="block u-screen-only">
-    <p><hr></p>
-    <p>Page last modified <span class="datetime"><time datetime="2026-04-07T14:31:56-0400">Apr. 7, 2026</time>
-    <span>@</span>
-    <time datetime="2026-04-07T14:31:56-0400">
-        02:31 PM EDT
-    </time></span></p>
-    <p>
-        <a class="a-link a-link--jump" href="https://wayback.archive-it.org/23481/*/https://www.consumerfinance.gov/complaint/process/">
-<span class="a-link__text">View older versions of this page at our public archive.</span>
- <svg aria-hidden="true" class="cf-icon-svg cf-icon-svg--external-link" viewbox="0 0 14 19" xmlns="http://www.w3.org/2000/svg"><path d="M13.017 3.622v4.6a.554.554 0 0 1-1.108 0V4.96L9.747 7.122a1.7 1.7 0 0 1 .13.646v5.57A1.664 1.664 0 0 1 8.215 15h-5.57a1.664 1.664 0 0 1-1.662-1.663v-5.57a1.664 1.664 0 0 1 1.662-1.662h5.57A1.65 1.65 0 0 1 9 6.302l2.126-2.126H7.863a.554.554 0 1 1 0-1.108h4.6a.554.554 0 0 1 .554.554M8.77 8.1l-2.844 2.844a.554.554 0 0 1-.784-.783l2.947-2.948H2.645a.555.555 0 0 0-.554.555v5.57a.555.555 0 0 0 .554.553h5.57a.555.555 0 0 0 .554-.554z"></path></svg></a>
-    </p>
- </div>
+  </cfpb-ccdb-search>
                 </div>
-                <aside class="u-layout-grid__sidebar" role="complementary">
-   <div class="block block--flush-top">
-      <div class="m-related-links">
-        <header class="m-slug-header">
-            <h2 class="m-slug-header__heading" id="have-a-question">
-                Have a question?
-            </h2>
-        </header>
-    <p data-block-key="6kvn0">If you can't submit online (7–10 minutes), you can submit over the phone (25–30 minutes).</p><p data-block-key="fobbp">Call: <a href="tel:(855) 411-2372">(855) 411-2372</a><br/>TTY/TTD: <a href="tel:(855) 729-2372">(855) 729-2372</a></p><p data-block-key="56u9q">8 a.m. to 8 p.m. ET, Monday through Friday <a class="a-link" href="https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Overview"><span class="a-link__text">(except federal holidays).</span> <svg aria-hidden="true" class="cf-icon-svg cf-icon-svg--external-link" viewbox="0 0 14 19" xmlns="http://www.w3.org/2000/svg"><path d="M13.017 3.622v4.6a.554.554 0 0 1-1.108 0V4.96L9.747 7.122a1.7 1.7 0 0 1 .13.646v5.57A1.664 1.664 0 0 1 8.215 15h-5.57a1.664 1.664 0 0 1-1.662-1.663v-5.57a1.664 1.664 0 0 1 1.662-1.662h5.57A1.65 1.65 0 0 1 9 6.302l2.126-2.126H7.863a.554.554 0 1 1 0-1.108h4.6a.554.554 0 0 1 .554.554M8.77 8.1l-2.844 2.844a.554.554 0 0 1-.784-.783l2.947-2.948H2.645a.555.555 0 0 0-.554.555v5.57a.555.555 0 0 0 .554.553h5.57a.555.555 0 0 0 .554-.554z"></path></svg></a></p>
-</div>
-   </div>
-   <div class="block">
-      <div class="m-related-links">
-        <header class="m-slug-header">
-            <h2 class="m-slug-header__heading" id="how-we-share-complaints">
-                How we share complaints
-            </h2>
-        </header>
-    <p data-block-key="hlnwt">Consistent with applicable law, we securely share complaints with other state and federal agencies to, among other things, facilitate:</p><ul><li data-block-key="6eg9s">supervision activities,</li><li data-block-key="94knp">enforcement activities, and</li><li data-block-key="9sgfe">monitor the market for consumer financial products and services.</li></ul><p data-block-key="2t1v6">We also publish complaint data (without information that directly identifies you) in our Consumer Complaint Database.</p>
-        <ul class="m-list m-list--links">
-            <li class="m-list__item">
-                <a href="/complaint/data-use/"
-                  class="a-link a-link--jump">
-                  <span class="a-link__text">Learn more about how we share your complaint data</span>
-                </a>
-            </li>
-        </ul>
-</div>
-   </div>
-                </aside>
         </div>
     </main>
 <footer class="o-footer">
